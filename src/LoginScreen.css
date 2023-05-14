@@ -1,0 +1,78 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+}
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+}
+.loginScreen__body {
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  left: 0;
+  right: 0;
+}
+
+/* .loginScreen__body > h1,
+h2 {
+  font-size: 3.9rem;
+  font-weight: 600;
+  margin-left: 300px;
+}
+.loginScreen__body > h2 {
+  font-size: 1.9rem;
+  font-weight: 200;
+  margin-left: 300px;
+}
+ */
+
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen__input {
+  margin: 20px;
+}
+.loginScreen__getStarted {
+  padding: 17.1px 19px;
+  font-size: 0.9rem;
+  border: none;
+  font-size: 500;
+  cursor: pointer;
+  color: #fff;
+  background-color: #e50914;
+}
+.loginScreen__background {
+  margin-left: 50%;
+}
